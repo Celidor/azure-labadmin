@@ -12,6 +12,7 @@ Clone the remote repository and copy files:
 ```
 $ git clone git@github.com:celidor/azure-labadmin.git
 $ cd azure-labadmin
+$ cp login.sh.example login.sh
 ```
 Edit the newly created login.sh to include the credentials of an Azure AD account with admin rights to your subscription.
 
