@@ -6,7 +6,6 @@ Minimum prerequisites:
 * Git
 * Azure CLI 2.0
 * Azure credentials
-* Python 3.6
 
 # set up local repository
 Clone the remote repository and copy files:
