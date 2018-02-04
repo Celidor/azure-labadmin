@@ -1,0 +1,2 @@
+#!/bin/bash
+az login -u {AZURE USERNAME} -p {AZURE PASSWORD}
