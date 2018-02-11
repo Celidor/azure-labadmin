@@ -29,7 +29,7 @@ $ ./delete-resource-groups.sh
 ```
 
 # Disable Azure AD password expiry using Windows
-Set up pre-requisites:
+Pre-requisites:
 * Install the 64-bit version of the Microsoft Online Services Sign-in Assistant at https://www.microsoft.com/en-us/download/details.aspx?id=41950
 * Run PowerShell as an Administrator
 ```
