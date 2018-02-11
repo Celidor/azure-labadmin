@@ -1,13 +1,13 @@
 # azure-labadmin
 Scripts for administering Azure security labs
 
-# prerequisites for Linux
+# Prerequisites for Linux
 Minimum prerequisites:
 * Git
 * Azure CLI 2.0
 * Azure credentials
 
-# set up local repository using Linux
+# Set up local repository using Linux
 Clone the remote repository and copy files:
 ```
 $ git clone git@github.com:celidor/azure-labadmin.git
