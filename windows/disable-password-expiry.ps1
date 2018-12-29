@@ -5,7 +5,7 @@
 #set-executionpolicy unrestricted
 Import-Module MSOnline
 Connect-MsolService
-for ($i=1;$i -le 14; $i++) {
+for ($i=1;$i -le 20; $i++) {
     "csa$i@celidor.net"
     Set-MsolUser -UserPrincipalName csa$i@celidor.net -PasswordNeverExpires $true
     Get-MSOLUser -UserPrincipalName csa$i@celidor.net | Select PasswordNeverExpires
