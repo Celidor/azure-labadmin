@@ -16,6 +16,22 @@ $ cp login.sh.example login.sh
 ```
 Edit the newly created login.sh to include the credentials of an Azure AD account with admin rights to your subscription.
 
+# Create Azure AD users
+After cloning the repository:
+* create a file user-passwords.sh with executable permissions
+* enter passwords to the file in the format below
+* ensure passwords comply with the account password policy
+```
+DOMAIN="example.com"
+PASSWORD_1="my-secure-password-for-user-1"
+PASSWORD_2="my-secure-password-for-user-2"
+```
+* edit the create-azusers.sh script as appropriate
+* to create users and assign passwords:
+```
+$ ./create-azusers.sh
+```
+
 # Manage Azure resource groups using Linux
 Edit create-resource-groups.sh and delete-resource-groups.sh as appropriate.
 

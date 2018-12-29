@@ -1,2 +1,6 @@
-.DS_Store
+#Credentials
 login.sh
+linux/user-passwords.sh
+
+#Mac OS X
+.DS_Store
