@@ -6,7 +6,7 @@
 #PASSWORD_2="xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 source user-passwords.sh
 echo "Creating Azure AD users for $DOMAIN"
-for i in `seq 15 20`;
+for i in `seq 1 20`;
 do
   echo "creating user csa$i"
   
